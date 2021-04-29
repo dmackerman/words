@@ -1,16 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --font-stack: "Overpass", system-ui, -apple-system, sans-serif;
+  --text-color: #f5f5f5;
+  --meta-color: rgba(255, 255, 255, 0.75);
+  --color-bg: #151515;
+  --color-link: dodgerBlue;
+  --color-default: #ddd;
+  --color-mid: #6f6f6f;
+  --color-dim: #333;
+  --color-vdim: #2f2f2f;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: var(--font-stack);
+  background: var(--color-bg);
+  color: var(--color-default);
 }
 
 a {
-  color: inherit;
+  color: var(--color-link);
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+.container {
+  min-height: 100vh;
+}
+
+main {
+  padding: 5rem 0;
+  max-width: 850px;
+  margin: 0px auto;
 }
