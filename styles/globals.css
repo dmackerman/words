@@ -32,8 +32,13 @@ a {
   min-height: 100vh;
 }
 
+.meta {
+  color: var(--color-mid);
+}
+
 main {
   padding: 5rem 0;
+  width: 100%;
   max-width: 850px;
   margin: 0px auto;
 }
