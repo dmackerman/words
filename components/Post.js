@@ -1,4 +1,3 @@
-import Link from "next/link";
 import PostHeader from "./PostHeader";
 
 export const Post = ({ post }) => {
@@ -9,10 +8,7 @@ export const Post = ({ post }) => {
 
   return (
     <article>
-      <PostHeader meta={meta} />
-      <Link href={"/blog" + link}>
-        <a>Read more →</a>
-      </Link>
+      <PostHeader meta={meta} link={link} />
     </article>
   );
 };

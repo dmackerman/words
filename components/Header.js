@@ -3,8 +3,8 @@ import Link from "next/link";
 export default function Header() {
   return (
     <nav>
-      <h1>Next'Blog</h1>
-      <div>
+      <h2>Dave Ackerman</h2>
+      <div class="links">
         <Link href="/">
           <a>Blog</a>
         </Link>
