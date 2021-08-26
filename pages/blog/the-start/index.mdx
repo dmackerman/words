@@ -1,4 +1,5 @@
 import BlogPost from "../../../components/BlogPost";
+import Link from "next/link";
 
 export const meta = {
   title: "My car buying experience with Vroom",
@@ -7,10 +8,42 @@ export const meta = {
   date: "April 29, 2020",
 };
 
+export const RedText = ({ children }) => (
+  <span style={{ color: "var(--color-red)" }}>{children}</span>
+);
+
 export default ({ children }) => <BlogPost meta={meta}>{children}</BlogPost>;
 
-## My Headline
+Buying a car is stressful. Over the years I've had the privilege of leasing or purchasing multiple vehicles, and I can't for sure say any of those experiences was "pleasant". The haggling. The terrible dealership coffee. The many hours of research trying to figure out a logical price for a vehicle, to then walk into a dealership and have none of that time respected.
 
-It’s almost parody how common it is for designers to frequently and publicly redesign their website. Ethan Marcotte and Frank Chimero are two such people who quite publicly went through their own flavours of dismantling and patiently reassembling their websites, and here I am experiencing my own Popeye moment and reflecting on the longevity of the former lives of my website’s design.
+Enter, Vroom! Vroom is an "an innovative, end-to-end eCommerce platform designed to offer a better way to buy and sell used vehicles". Sounds snazzy! The company was founded in 2013 and <Link href="https://www.reddit.com/r/Vroom/">have an amazing amount of pretty terrible reviews</Link> on Reddit and other websites. As with all reviews, you typically get the bad-apples speaking up with their frustrations and shitty experiences mixed in with the occasional positive review.
 
-The current design (as of April 29, 2021) has been practically unchanged—structurally speaking, at least—since July 2019, which is a pretty long time! Prior to this iteration, the design changed fairly substantially every 2–3 months.
+Some of the concerns I had going into this process:
+
+- The end of my 2018 Mazda CX-5 lease was in approximately 2 months, and I knew that the lease turn-in would have to be part of the new deal.
+
+## Picking a car
+
+The good here news is that Vroom has a _lot_ of inventory. They had no shortage of low-mileage 2014-2018 BMWs. Most of their inventory is priced very competitively compared to Carmax, Carvana, or local dealerships. There is no haggling -- you pay the listed price or you don't get a car. On average I saw around a $1,500 - $2,000 discount from other dealerships with similar inventory in my area (Phoenix, AZ).
+
+Luckily for me I knew exactly which car I wanted and the features along with it. There were a few different BMW 535i's available. I chose the one with the least amount of miles, good looking paint, a good maintenance history (you get the CarFax report for free on the car listing page), and only 1 previous owner.
+
+## "Add to cart"
+
+Once I decided on a car, I clicked the big red button and added a BMW to my shopping cart! Wow, how exciting! 😆 I entered some basic details about myself, whether I would be interested in financing, and that was that. My first email correspondence with a Vroom representative was on _Wed, Apr 7_ -- let's call this <RedText>Day 0</RedText>.
+
+I received a phone call from Patrick. We got to talking about how the process works. I would put down a $500 deposit to hold the vehicle and prevent it from showing up the Vroom website. Easy enough! He takes my credit card information and holds the vehicle for me right there on the phone. We start talking about financing and how my lease-end trade-in works. He mentions that the trade-in and lease payoff will be no problem, and.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
